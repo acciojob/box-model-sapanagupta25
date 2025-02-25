@@ -1,16 +1,50 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Layout</title>
+    <style>
+        /* Container Styling */
+        .container {
+            width: 300px;
+            padding: 20px;
+            border: 5px solid black;
+            border-radius: 15px;
+            text-align: center;
+            margin: 50px auto;
+            background-color: lightgray;
+        }
+
+        /* Common Block Styling */
+        .red, .green, .yellow {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        /* Individual Block Colors */
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <div class="red"></div>
+        <div class="green"></div>
+        <div class="yellow"></div>
+    </div>
 </body>
-
 </html>
+
